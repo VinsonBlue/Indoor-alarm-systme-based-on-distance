@@ -1,4 +1,26 @@
 # Indoor-alarm-systme-based-on-distance
 using supersonic to measure the distance if the distance less a certain value then it will alarm
 
-This design consists two parts: software design and hardware design. Softwave design includes data acquisition, key control,LCD display, alarm and other sub-modules. Hardware composeses Ultrasonic sensor, buzzer, MCU control circuit. And diagram of the systme is in the 
+This design consists two parts: software design and hardware design. Softwave design includes data acquisition, key control,LCD display, alarm and other sub-modules. Hardware composeses Ultrasonic sensor, buzzer, MCU control circuit. And diagram of the systme is as follows:
+                               ..................
+                               .      POWER     .
+                               ..................
+                                        
+                                        .
+                                        .
+                                       \./  
+...................                .........                ...................
+.supersonic sensor.    .....>      .   S   .      <......   .   Key Control   . 
+...................                .   T   .                ...................
+                                   .   C   .                 
+                                   .   8   .                ...................
+..................                 .   9   .       <.....   .      LCD1602    .
+.       alarm    .    ......>      .   C   .                ...................
+..................                 .   5   .
+                                   .   2   .                ...................
+                                   .       .       <.....   . Upper  computer .
+                                   .........                ...................  
+ 
+ 
+ the supersonic sensor is HYSFR05 which can provide 2cm - 450cm diastance measure.
+ 
